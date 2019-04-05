@@ -186,3 +186,37 @@ int utn_getChar(char* pResultado,const char *mensaje,const char *mensajeError,co
 /*Recibe la variable de tipo char *pResultado donde se guardara el caracter.un const char* para el mensaje otro para el mensaje de error,
   tambien recibe int minimo y maximo para los limites de los caracteres aceptados. recibe la cantidad de reintentos de error, y devuelve
   0 si funciono -1 si no. */
+  
+  
+  
+  
+  
+  
+  
+  
+  TITILAR ARDUINO
+  void titilar(int pin,int veces,int tiempo);
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+}
+
+void loop() 
+{
+
+  titilar(13,3,500);
+  titilar(12,3,500);
+  delay(6000);
+ }
+void titilar(int pin,int veces,int tiempo)
+{
+  for(;veces>0;veces--)
+  {
+    digitalWrite(pin,HIGH);
+    delay(tiempo);
+    digitalWrite(pin,LOW);
+    delay(tiempo);
+
+  }
+}
