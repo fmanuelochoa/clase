@@ -41,6 +41,21 @@ int main()
 
     //strlen()//cuantos caracteres tiene adentro
     //strcmp()//compara arrays cual es mas grande y devuelve 1 o 0
+    //nombre[strlen(nombre)-1] = '\0' equivale a que no cuente el enter que enviamos
+
+    // GET STRING (por ej getnombre que tenga = get string y validar nombre para la funcion)
+     //int utn_isValidNumber(char *str);// desarrollo la firma y que la funcion devuelva verdadero para empezar la validacion mas facil y despues el error por separado
+    // {
+       // return 1;
+    // }
+
+     //int utn_getNumber(char *msg, char *msgEror,int minimo, int maximo,int reintentos,int *resultado)//se inicia con un getstring para validar
+
+    // int utn_getString(char *msg, char *msgEror,int minimo, int maximo,int reintentos,char *resultado)
+    //
+
+
+    //
 
 
 
